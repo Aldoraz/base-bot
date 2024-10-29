@@ -1,0 +1,32 @@
+{
+  "name": "base-bot",
+  "version": "1.0.0",
+  "description": "A basic template bot using discord.js including folder based event / command routing for ease of expandability and deployment.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aldoraz/base-bot.git"
+  },
+  "keywords": [
+    "discord.js",
+    "template"
+  ],
+  "author": "Aldoraz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aldoraz/base-bot/issues"
+  },
+  "homepage": "https://github.com/Aldoraz/base-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.16.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0"
+  }
+}
