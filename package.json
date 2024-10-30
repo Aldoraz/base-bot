@@ -5,7 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "node .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy:dev": "node deploy/deploy_commands.js dev",
+    "deploy:prod": "node deploy/deploy_commands.js prod",
+    "deploy:global": "node deploy/deploy_commands.js global",
+    "delete:dev": "node deploy/delete_command.js dev",
+    "delete:prod": "node deploy/delete_command.js prod",
+    "delete:global": "node deploy/delete_command.js global"
   },
   "repository": {
     "type": "git",
@@ -22,6 +28,7 @@
   },
   "homepage": "https://github.com/Aldoraz/base-bot#readme",
   "dependencies": {
+    "colorette": "^2.0.20",
     "discord.js": "^14.16.3"
   },
   "devDependencies": {

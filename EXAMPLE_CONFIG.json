@@ -1,5 +1,6 @@
 {
     "token": "YOUR_APP_TOKEN",
     "clientId": "YOUR_APP_ID",
-    "devServerId": "YOUR_DEV_SERVER_ID"
+    "devServerId": "YOUR_DEV_SERVER_ID",
+    "prodServerId": "YOUR_PROD_SERVER_ID"
 }
